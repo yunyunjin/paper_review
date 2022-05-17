@@ -18,7 +18,6 @@
 #### funcional connectivity
 ![list of functional connectivity measurement](https://user-images.githubusercontent.com/102893841/168727972-439284d2-b844-4ba1-ac10-e1219ddd1391.png)
 
-
 #### Approaches to graph theory
 * To study the human brain network on a macroscopic scale, the nodes represent brain regions (i.e., EEG electrodes/sensors), whereas the edges represent statistical measures of association, including anatomical, functional, or effective connections.
   *  거시적 규모로 인간의 뇌 네트워크를 연구하기 위해, node는 뇌 영역을 나타내며, edge는 해부학적, 기능적 또는 효과적인 연결을 포함한 연관성의 통계적 측정을 나타냄
@@ -28,5 +27,24 @@
   * 그러나 indirect graph는 정보가 연결된 edge를 따라 양방향으로 흐른다는 것을 보여줌. 
   * 두 node 사이의 선의 무게는 edge의 연결 강도를 반영하므로 강한 연결과 약한 연결을 구별할 수 있음.
   * 약한 연결은 threshold를 통해 제거.
+
+![pipeline](https://user-images.githubusercontent.com/102893841/168746058-e4895eca-db0f-48eb-be39-0a6f78dbadaf.png)
+
+
+##### Choose a Treshold Value
+* Thresholding helps to simplify the complexity of the brain network calculations by eliminating weak, noisy, and insignificant edges from the network.
+* Selecting an inappropriate threshold method creates instability and increases the bias; therefore, careful selection is crucial. 
+* A key factor is to select a method capable of controlling and minimizing the occurrence of type I errors (i.e., false-positives).
+* To perform statistical inference on connectome data, some researchers have suggested to “independently test the hypothesis of interest at each discrete density along the curve”
+  *  곡선을 따라 각 이산 밀도에서의 관심 가설을 독립적으로 시험? 이게 몬 말이지
+* In contrast, others have recommended more sophisticated methods, such as false discovery rate (FDR) error metric, network-based statistics (NBS), and subnetwork-based analysis.
+  * 허위 발견률(FDR) 오류 메트릭스.. NBS 및 하위 네트워크 기반 분석과 같은 방법 제안..?
+* A novel methodology, namely the minimum connected component (MCC), has been proposed by Vijayalakshmi et al., which overcomes the threshold issues
+  * 최소 연결 구성 요소(Minimum connected component, MCC) 제안 - 문제 극복?
+
+####  GRAPH THEORY MEASURES AND NETWORK TOPOLOGY PROPERTIES
+
+![typical network meausre](https://user-images.githubusercontent.com/102893841/168749333-7fd62e2d-8c3d-406c-b943-8ecbb9cd21d2.png)
+
 
 
