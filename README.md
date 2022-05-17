@@ -1,5 +1,6 @@
 # Connectivity + Network
-=======================================
+
+
 ## Ismail, L. E., & Karwowski, W. (2020). A graph theory-based modeling of functional connectivity based on eeg: A systematic review in the context of neuroergonomics. IEEE Acess, 8, 155103-155135.
 **리뷰논문, 인간 대상, EEG만 사용, 질환 제외하고 건강한 참가자에 대한 실험 연구만, peer-reviewed journals**
 
@@ -15,4 +16,17 @@
 ### Theoretical background
 --------------------------
 #### funcional connectivity
-* ![list of functional connectivity measurement](https://user-images.githubusercontent.com/102893841/168727972-439284d2-b844-4ba1-ac10-e1219ddd1391.png)
+![list of functional connectivity measurement](https://user-images.githubusercontent.com/102893841/168727972-439284d2-b844-4ba1-ac10-e1219ddd1391.png)
+
+
+#### Approaches to graph theory
+* To study the human brain network on a macroscopic scale, the nodes represent brain regions (i.e., EEG electrodes/sensors), whereas the edges represent statistical measures of association, including anatomical, functional, or effective connections.
+  *  거시적 규모로 인간의 뇌 네트워크를 연구하기 위해, node는 뇌 영역을 나타내며, edge는 해부학적, 기능적 또는 효과적인 연결을 포함한 연관성의 통계적 측정을 나타냄
+* graph edges include weighted direct, unweighted direct, weighted indirect, and unweighted indirect. A direct edge shows that the information flows in one direction only and that one node’s activity depends on the other (i.e., causal influence); however, an indirect graph shows that information flows in both directions along edges that connect. The weight of the line between two nodes reflects the connectivity strength of the edge, which allows for discrimination between strong and weak connections. Weak connections can be removed by thresholding.
+  * edge에는 weighted direct, unweighted direct, weighted indirecr, and unweighted indirect가 있음
+  * direct edge는 정보가 한 방향으로만 흐르고 한 node의 활동이 다른 쪽(즉, 인과적 영향)에 의존한다는 것을 보여줌. 
+  * 그러나 indirect graph는 정보가 연결된 edge를 따라 양방향으로 흐른다는 것을 보여줌. 
+  * 두 node 사이의 선의 무게는 edge의 연결 강도를 반영하므로 강한 연결과 약한 연결을 구별할 수 있음.
+  * 약한 연결은 threshold를 통해 제거.
+
+
