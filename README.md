@@ -1,3 +1,6 @@
+22.05.17
+
+
 # Connectivity + Network
 
 
@@ -45,6 +48,19 @@
 ####  GRAPH THEORY MEASURES AND NETWORK TOPOLOGY PROPERTIES
 
 ![typical network meausre](https://user-images.githubusercontent.com/102893841/168749333-7fd62e2d-8c3d-406c-b943-8ecbb9cd21d2.png)
+
+
+### Number of electordes
+--------------------------
+* large number of electrodes increase the accuracy of eletrical source estimation and signal preprocessing.
+* In contrast, some researchers recommened fewer than 32 eletrodes, demonstrating that a small number is adequate to cover the ROI and obtain reliable information.
+  *  J. García-Prieto, R. Bajo and E. Pereda, "Efficient computation of functional brain networks: Toward real-time functional connectivity", Frontiers Neuroinf., vol. 11, pp. 1-18, Feb. 2017.
+  *  G. Li, Y. Luo, Z. Zhang, Y. Xu, W. Jiao, Y. Jiang, et al., "Effects of mental fatigue on small-world brain functional network organization", Neural Plasticity, vol. 2019, pp. 1-10, Dec. 2019.
+  *  F. Wang, X. Zhang, R. Fu and G. Sun, "EEG characteristic analysis of coach bus drivers based on brain connectivity as revealed via a graph theoretical network", RSC Adv., vol. 8, no. 52, pp. 29745-29755, 2018.
+*  *S. J. Luck, An Introduction to the Event-Related Potential Technique, Cambridge, MA, USA:MIT Press, 2014.* indicating that the use of 16-32 active eletrodes is better for monitoring brain activity(ERP라서 그런가?)
+
+![number of recording eletrods](https://user-images.githubusercontent.com/102893841/168801065-4182b7b6-eef7-419b-bff6-00f946065e0c.png)
+
 
 
 
